@@ -14,6 +14,9 @@ http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/
 Introduction to LWM2M:
 http://fr.slideshare.net/zdshelby/oma-lightweightm2-mtutorial
 
+Introduction to SmartFarm:
+Smart Farm is a plant farm which is equipped with sensors and actuators. An farm owner or user can monitor the farm and control actuators remotely. Theses sensors and actuators are LWM2M clients. The LWM2M server helps users to manage the farm.
+
 Contact
 -------
 
