@@ -1097,7 +1097,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "The application type of the sensor or actuator as a string, for instance, “Air Pressure”"
+        "description": "The application type of the sensor or actuator as a string, for instance, Air Pressure"
       },
       {
         "id": 5751,
@@ -1150,7 +1150,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "The application type of the output as a string, for instance, “LED”"
+        "description": "The application type of the output as a string, for instance, LED"
       }
     ]
   },
@@ -1236,7 +1236,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "The application type of the sensor or actuator as a string, for instance, “Air Pressure”"
+        "description": "The application type of the sensor or actuator as a string, for instance, Air Pressure"
       },
       {
         "id": 5751,
@@ -1300,7 +1300,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "If present, the application type of the actuator as a string, for instance, “Thermostat”"
+        "description": "If present, the application type of the actuator as a string, for instance, Thermostat"
       }
     ]
   },
@@ -1319,7 +1319,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value measured by the sensor since power ON or reset"
       },
       {
@@ -1330,7 +1330,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value measured by the sensor since power ON or reset"
       },
       {
@@ -1341,7 +1341,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value that can be measured by the sensor"
       },
       {
@@ -1352,7 +1352,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value that can be measured by the sensor"
       },
       {
@@ -1374,7 +1374,7 @@
         "mandatory": true,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "Last or Current Measured Value from the Sensor"
       },
       {
@@ -1386,7 +1386,7 @@
         "type": "float",
         "range": "",
         "units": "",
-        "description": "Measurement Units Definition e.g. “Cel” for Temperature in Celsius."
+        "description": "Measurement Units Definition e.g. Cel for Temperature in Celsius."
       },
       {
         "id": 5750,
@@ -1397,7 +1397,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "If present, the application type of the sensor as a string, for instance, “CO2”"
+        "description": "If present, the application type of the sensor as a string, for instance, CO2"
       },
       {
         "id": 5751,
@@ -1427,7 +1427,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value measured by the sensor since power ON or reset"
       },
       {
@@ -1438,7 +1438,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value measured by the sensor since power ON or reset"
       },
       {
@@ -1449,7 +1449,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value that can be measured by the sensor"
       },
       {
@@ -1460,7 +1460,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value that can be measured by the sensor"
       },
       {
@@ -1482,7 +1482,7 @@
         "mandatory": true,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The current value of the luminosity sensor."
       },
       {
@@ -1494,7 +1494,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "If present, the type of sensor defined as the UCUM Unit Definition e.g. “Cel” for Temperature in Celcius."
+        "description": "If present, the type of sensor defined as the UCUM Unit Definition e.g. Cel for Temperature in Celcius."
       }
     ]
   },
@@ -1588,7 +1588,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value measured by the sensor since power ON or reset"
       },
       {
@@ -1599,7 +1599,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value measured by the sensor since power ON or reset"
       },
       {
@@ -1610,7 +1610,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value that can be measured by the sensor"
       },
       {
@@ -1621,7 +1621,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value that can be measured by the sensor"
       },
       {
@@ -1643,7 +1643,7 @@
         "mandatory": true,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "Last or Current Measured Value from the Sensor"
       },
       {
@@ -1655,7 +1655,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "Measurement Units Definition e.g. “Cel” for Temperature in Celsius."
+        "description": "Measurement Units Definition e.g. Cel for Temperature in Celsius."
       }
     ]
   },
@@ -1674,7 +1674,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value measured by the sensor since power ON or reset"
       },
       {
@@ -1685,7 +1685,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value measured by the sensor since power ON or reset"
       },
       {
@@ -1696,7 +1696,7 @@
         "mandatory": false,
         "type": "string",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value that can be measured by the sensor"
       },
       {
@@ -1707,7 +1707,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value that can be measured by the sensor"
       },
       {
@@ -1729,7 +1729,7 @@
         "mandatory": true,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "Last or Current Measured Value from the Sensor"
       },
       {
@@ -1741,7 +1741,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "Measurement Units Definition e.g. “Cel” for Temperature in Celsius."
+        "description": "Measurement Units Definition e.g. Cel for Temperature in Celsius."
       }
     ]
   },
@@ -1968,7 +1968,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "The Application type of the device, for example “Motion Closure”."
+        "description": "The Application type of the device, for example Motion Closure."
       },
       {
         "id": 5850,
@@ -2032,7 +2032,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "If present, the type of sensor defined as the UCUM Unit Definition e.g. “Cel” for Temperature in Celcius."
+        "description": "If present, the type of sensor defined as the UCUM Unit Definition e.g. Cel for Temperature in Celcius."
       },
       {
         "id": 5706,
@@ -2054,7 +2054,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "The Application type of the device, for example “Motion Closure”."
+        "description": "The Application type of the device, for example Motion Closure."
       },
       {
         "id": 5900,
@@ -2064,7 +2064,7 @@
         "mandatory": true,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.\t",
+        "units": "Defined by Units resource.\t",
         "description": "The setpoint value. "
       }
     ]
@@ -2160,7 +2160,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "If present, the type of sensor defined as the UCUM Unit Definition e.g. “Cel” for Temperature in Celcius."
+        "description": "If present, the type of sensor defined as the UCUM Unit Definition e.g. Cel for Temperature in Celcius."
       },
       {
         "id": 5706,
@@ -2309,7 +2309,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value that can be measured by the sensor"
       },
       {
@@ -2320,7 +2320,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value that can be measured by the sensor"
       },
       {
@@ -2332,7 +2332,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "Measurement Units Definition e.g. “Cel” for Temperature in Celsius."
+        "description": "Measurement Units Definition e.g. Cel for Temperature in Celsius."
       },
       {
         "id": 5702,
@@ -2342,7 +2342,7 @@
         "mandatory": true,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The measured value along the X axis."
       },
       {
@@ -2353,7 +2353,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The measured value along the Y axis."
       },
       {
@@ -2364,7 +2364,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The measured value along the Z axis."
       }
     ]
@@ -2385,7 +2385,7 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "Measurement Units Definition e.g. “Cel” for Temperature in Celsius."
+        "description": "Measurement Units Definition e.g. Cel for Temperature in Celsius."
       },
       {
         "id": 5702,
@@ -2395,7 +2395,7 @@
         "mandatory": true,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The measured value along the X axis."
       },
       {
@@ -2406,7 +2406,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The measured value along the Y axis."
       },
       {
@@ -2417,7 +2417,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The measured value along the Z axis."
       },
       {
@@ -2448,7 +2448,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value measured by the sensor since power ON or reset"
       },
       {
@@ -2459,7 +2459,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value measured by the sensor since power ON or reset"
       },
       {
@@ -2470,7 +2470,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The minimum value that can be measured by the sensor"
       },
       {
@@ -2481,7 +2481,7 @@
         "mandatory": false,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "The maximum value that can be measured by the sensor"
       },
       {
@@ -2503,7 +2503,7 @@
         "mandatory": true,
         "type": "float",
         "range": "",
-        "units": "Defined by “Units” resource.",
+        "units": "Defined by Units resource.",
         "description": "Last or Current Measured Value from the Sensor"
       },
       {
@@ -2515,7 +2515,69 @@
         "type": "string",
         "range": "",
         "units": "",
-        "description": "If present, the type of sensor defined as the UCUM Unit Definition e.g. “Cel” for Temperature in Celcius."
+        "description": "If present, the type of sensor defined as the UCUM Unit Definition e.g. Cel for Temperature in Celcius."
+      }
+    ]
+  },
+  {
+    "name": "IPSO NH3",
+    "id": 20801,
+    "instancetype": "multiple",
+    "mandatory": false,
+    "description": "",
+    "resourcedefs": [
+      {
+        "id": 5700,
+        "name": "Sensor Value",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": true,
+        "type": "float",
+        "range": "",
+        "units": "ppm",
+        "description": "Last or Current Measured Value from the Sensor"
+      },
+      {
+        "id": 5701,
+        "name": "Sensor Units",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "string",
+        "range": "",
+        "units": "ppm",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "IPSO CO2",
+    "id": 20802,
+    "instancetype": "multiple",
+    "mandatory": false,
+    "description": "",
+    "resourcedefs": [
+      {
+        "id": 5700,
+        "name": "Sensor Value",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": true,
+        "type": "float",
+        "range": "",
+        "units": "ppm",
+        "description": "Last or Current Measured Value from the Sensor"
+      },
+      {
+        "id": 5701,
+        "name": "Sensor Units",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "string",
+        "range": "",
+        "units": "ppm",
+        "description": ""
       }
     ]
   }

@@ -32,7 +32,7 @@ import org.eclipse.jetty.continuation.ContinuationListener;
 import org.eclipse.jetty.continuation.ContinuationSupport;
 import org.eclipse.jetty.util.ConcurrentHashSet;
 import org.eclipse.leshan.core.node.LwM2mNode;
-import org.eclipse.leshan.server.californium.impl.LeshanServer;
+import org.eclipse.leshan.server.californium.impl.SmartFarmServer;
 import org.eclipse.leshan.server.client.Client;
 import org.eclipse.leshan.server.client.ClientRegistryListener;
 import org.eclipse.leshan.server.observation.Observation;
@@ -125,7 +125,7 @@ public class EventServlet extends HttpServlet {
         }
     };
 
-    public EventServlet(LeshanServer server) {
+    public EventServlet(SmartFarmServer server) {
         server.getClientRegistry().addListener(this.clientRegistryListener);
         server.getObservationRegistry().addListener(this.observationRegistryListener);
 

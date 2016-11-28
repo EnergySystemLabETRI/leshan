@@ -17,7 +17,7 @@ package org.eclipse.leshan.standalone.servlet.json;
 
 import java.lang.reflect.Type;
 
-import org.eclipse.leshan.server.californium.LeshanServerBuilder;
+import org.eclipse.leshan.server.californium.SmartFarmServerBuilder;
 import org.eclipse.leshan.server.client.Client;
 
 import com.google.gson.JsonElement;
@@ -42,7 +42,7 @@ public class ClientSerializer implements JsonSerializer<Client> {
         element.add("rootPath", context.serialize(src.getRootPath()));
         element.add("objectLinks", context.serialize(src.getSortedObjectLinks()));
         element.add("secure",
-                context.serialize(src.getRegistrationEndpointAddress().getPort() == LeshanServerBuilder.PORT_DTLS));
+                context.serialize(src.getRegistrationEndpointAddress().getPort() == SmartFarmServerBuilder.PORT_DTLS));
 
         return element;
     }

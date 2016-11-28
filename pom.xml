@@ -19,11 +19,11 @@ Contributors:
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.eclipse.leshan</groupId>
-    <artifactId>leshan</artifactId>
+    <artifactId>leshan-smartfarm</artifactId>
     <version>0.1.11-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>leshan</name>
+    <name>leshan-smartfarm</name>
     <url>http://eclipse.org/leshan</url>
     <description>An OMA Lightweight M2M (LWM2M) implementation in Java</description>
     <licenses>
@@ -40,17 +40,11 @@ Contributors:
     </licenses>
 
     <modules>
-        <module>leshan-core</module>
-        <module>leshan-server-core</module>
-        <module>leshan-server-cf</module>
-        <module>leshan-client-core</module>
-        <module>leshan-client-cf</module>
-
-        <module>leshan-integration-tests</module> 
-
-        <module>leshan-client-example</module>
-        <module>leshan-standalone</module>
-        <module>leshan-bs-server</module>
+        <module>leshan-smartfarm-core</module>
+        <module>leshan-smartfarm-server-core</module>
+        <module>leshan-smartfarm-server-cf</module>
+        <module>leshan-smartfarm-standalone</module>
+        <module>leshan-smartfarm-bs-server</module>
     </modules>
 
     <scm>
@@ -88,6 +82,13 @@ Contributors:
         <log4j.version>[2.0.0, 3)</log4j.version>
         <jetty.version>9.1.4.v20140401</jetty.version>
     </properties>
+    
+    <repositories>
+     <repository> 
+      <id>local-repository</id>
+      <url>file://${basedir}/../../localRepository</url>
+     </repository>
+    </repositories>
     
     <distributionManagement>
         <snapshotRepository>
@@ -269,32 +270,32 @@ Contributors:
         <dependencies>
             <dependency>
                 <groupId>org.eclipse.leshan</groupId>
-                <artifactId>leshan-core</artifactId>
+                <artifactId>leshan-smartfarm-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.leshan</groupId>
-                <artifactId>leshan-server-core</artifactId>
+                <artifactId>leshan-smartfarm-server-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.leshan</groupId>
-                <artifactId>leshan-client-core</artifactId>
+                <artifactId>leshan-smartfarm-client-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.leshan</groupId>
-                <artifactId>leshan-bs-server</artifactId>
+                <artifactId>leshan-smartfarm-bs-server</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.leshan</groupId>
-                <artifactId>leshan-server-cf</artifactId>
+                <artifactId>leshan-smartfarm-server-cf</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.leshan</groupId>
-                <artifactId>leshan-client-cf</artifactId>
+                <artifactId>leshan-smartfarm-client-cf</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

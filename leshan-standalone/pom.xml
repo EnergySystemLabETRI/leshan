@@ -19,17 +19,17 @@ Contributors:
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.eclipse.leshan</groupId>
-        <artifactId>leshan</artifactId>
+        <artifactId>leshan-smartfarm</artifactId>
         <version>0.1.11-SNAPSHOT</version>
     </parent>
     <artifactId>leshan-standalone</artifactId>
-    <name>leshan - standalone server</name>
+    <name>leshan-smartfarm - standalone server</name>
     <description>A LWM2M server running an embedded Jetty server</description>
 
     <dependencies>
         <dependency>
             <groupId>org.eclipse.leshan</groupId>
-            <artifactId>leshan-server-cf</artifactId>
+            <artifactId>leshan-smartfarm-server-cf</artifactId>
         </dependency>
         <dependency>
             <groupId>org.eclipse.californium</groupId>
@@ -70,6 +70,11 @@ Contributors:
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+			<groupId>smartfarm</groupId>
+			<artifactId>smartfarm-lib</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <build>
@@ -124,5 +129,40 @@ Contributors:
                 </configuration>
             </plugin>
         </plugins>
+        <pluginManagement>
+        	<plugins>
+        		<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+        		<plugin>
+        			<groupId>org.eclipse.m2e</groupId>
+        			<artifactId>lifecycle-mapping</artifactId>
+        			<version>1.0.0</version>
+        			<configuration>
+        				<lifecycleMappingMetadata>
+        					<pluginExecutions>
+        						<pluginExecution>
+        							<pluginExecutionFilter>
+        								<groupId>
+        									com.google.code.maven-replacer-plugin
+        								</groupId>
+        								<artifactId>
+        									replacer
+        								</artifactId>
+        								<versionRange>
+        									[1.5.3,)
+        								</versionRange>
+        								<goals>
+        									<goal>replace</goal>
+        								</goals>
+        							</pluginExecutionFilter>
+        							<action>
+        								<ignore></ignore>
+        							</action>
+        						</pluginExecution>
+        					</pluginExecutions>
+        				</lifecycleMappingMetadata>
+        			</configuration>
+        		</plugin>
+        	</plugins>
+        </pluginManagement>
     </build>
 </project>

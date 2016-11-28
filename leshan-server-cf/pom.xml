@@ -20,18 +20,23 @@ Contributors:
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.eclipse.leshan</groupId>
-        <artifactId>leshan</artifactId>
+        <artifactId>leshan-smartfarm</artifactId>
         <version>0.1.11-SNAPSHOT</version>
     </parent>
-    <artifactId>leshan-server-cf</artifactId>
+    <artifactId>leshan-smartfarm-server-cf</artifactId>
     <packaging>bundle</packaging>
-    <name>leshan - server californium</name>
+    <name>leshan-smartfarm - server californium</name>
     <description>A transport implementation for leshan server based on CoAP Californium</description>
 
     <dependencies>
+    	<dependency> 
+			<groupId>lib.smartfarm</groupId>
+			<artifactId>smartfarm-server-cf-lib</artifactId>
+			<version>0.1.11-SNAPSHOT</version>
+		</dependency>
         <dependency>
             <groupId>org.eclipse.leshan</groupId>
-            <artifactId>leshan-server-core</artifactId>
+            <artifactId>leshan-smartfarm-server-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.eclipse.californium</groupId>
